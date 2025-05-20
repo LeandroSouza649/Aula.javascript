@@ -11,7 +11,7 @@ fetch(`https://dattebayo-api.onrender.com/${route}`, {//chamdo de api
         return response.json();//
     })
     .then((data) => {
-        while(contador < 18 ){
+        while(contador < 20 ){
             //console.log(data.characters[contador].images[0]);
             //console.log(data.characters[contador].jutsu);
             minhaLista.push(data.characters[contador].id);
